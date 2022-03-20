@@ -7,7 +7,7 @@ module Guard
 
       def self.with_defaults(options)
         DEFAULTS.each do |k, v|
-          options[k] ||= v
+          options[k] = v if options.key?(k)
         end
 
         options
