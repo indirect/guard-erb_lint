@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "guard-erb_lint"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["Mathias H Steffensen"]
   spec.email         = ["mathiashsteffensen@protonmail.com"]
 
